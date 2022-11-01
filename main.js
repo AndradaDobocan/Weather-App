@@ -1,6 +1,6 @@
 const API_URL = "https://api.openweathermap.org/data/2.5/weather?units=metric&";
 
-const API_KEY = "fd3a81af060da6279d48b0d6b97c22f0";
+const API_KEY = "your_API_KEY";
 
 let cities = [];
 
