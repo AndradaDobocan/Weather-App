@@ -1,0 +1,68 @@
+* {
+    font-family: sans-serif;
+}
+
+.text-ro {
+    display: none;
+}
+
+.text-es {
+    display: none;
+}
+
+
+header {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    background-color: rgb(107, 158, 199);
+    color: rgb(235, 232, 232);
+}
+
+h1 { 
+    text-align: center;
+}
+
+.language {
+    padding-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.location-input {
+    display: inline-flex;
+    padding-top: 20px;
+    position: relative;
+    left: 40rem;
+    width: 410px;
+    height: 30px;
+    font-size: 40px;
+}
+
+button {
+    font-size: 15px;
+    margin-left: 5px;
+    display: fit;
+}
+
+.error-message {
+    margin-top: 30px;
+    color: rgb(134, 132, 132);
+    visibility: hidden;
+    text-align: center;
+}
+
+.city {
+    display: inline-grid;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(107, 158, 199);
+    color: rgb(235, 232, 232);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;

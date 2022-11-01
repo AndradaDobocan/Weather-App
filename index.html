@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header> 
+        <span class="text-en">🌧️ Weather app </span>
+        <span class="text-ro">🌧️ Aplicație meteo</span>
+        <span class="text-es">🌧️ Aplicación de tiempo</span>
+        <h1 class = "text-en">Welcome 🌞</h1>
+        <h1 class = "text-ro">Bun venit! 🌞</h1>
+        <h1 class = "text-es">Bienvenidos!🌞</h1>
+    </header>
+    <main>
+        <div class="language">
+            <h3 class = "text-en">Choose your language:</h3>
+            <h3 class = "text-ro">Alege limba:</h3>
+            <h3 class = "text-es">Escoge el idioma:</h3>
+            <div class="input-lang">
+                <input type="radio" id= "lang-ro" name="contact" value="RO">
+                <label for="lang-ro">Română</label>
+                <input type="radio" id= "lang-en" checked name="contact" value="EN">
+                <label for="lang-en">English</label>
+                <input type="radio" id= "lang-es" name="contact" value="ES">
+                <label for="lang-es">Spanish</label>
+            </div>
+        </div>
+        <div class="location-input">
+            <input type="text" id="location" placeholder="Enter a location"/>
+            <button class = "text-en" id="btn-search-location">Search </button>
+            <button class = "text-ro" id="btn-search-location">Caută </button>
+            <button class = "text-es" id="btn-search-location">Buscar</button>
+            <button class = "text-en" id="btn-location">Use my location</button>
+            <button class = "text-ro" id="btn-location">Folosește locația mea</button>
+            <button class = "text-es" id="btn-location">Utiliza mi ubicación</button>
+        </div>
+        <div class="error-message">
+            <div class="location-error-message">
+                <p class = "text-en" id="location-error-msg">😔 Sorry. We could not get your location data.</p>
+                <p class = "text-ro" id="location-error-msg">😔 Ne pare rău. Nu putem determina locația dvs.</p>
+                <p class = "text-es" id="location-error-msg">😔 Lo sientimos. No podemos determinar su ubicación.</p>
+            </div>
+            <div class="search-error-message">
+                <p>There was an error fetching data. Please use a real city name.
+                </p>
+            </div>
+        </div>
+        <div id="city-list"></div>
+    </main>
+    
+
+</body>
+</html>
