@@ -1,2 +1,2 @@
 # Weather-App
-Simple Weather App created using JS and Open Weather API
+Simple Weather App created using Javascript and Open Weather API
